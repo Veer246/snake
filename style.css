@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 68, 255);
+}
+
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.game-area {
+    margin-top: 20px;
+    background-color: #222; /* Background color for the game area */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+canvas {
+    background-color: #000; /* Background color for the canvas */
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
